@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.container {
+    width: 450px;
+    height: 400px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid rgb(214, 215, 216);
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+}
+.btn-add {
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.todo-container {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
