@@ -15,13 +15,25 @@
 
   <div class="container">
     <h1>what is on your mind?</h1>
-    <input id="inputField" type="text">
-    <button class="btn-add" id="addToDo">+</button>
-    <div class="todo-container" id="toDoContainer"> </div>
+
+    <form class="form-control">
+      <div class="input-field">
+        <input id="title" type="text">
+        <button class="btn-primary">+</button>
+      </div>
+
+      <input type="text" class="input-filter" id="filterInput" placeholder="filter items ..." />
+    </form>
+
+    <h1> number of task: <span>0</span></h1>
+    <div class="todo"> </div>
   </div>
 
 
-  <script src='app.js'></script>
+  <script src="./js/LocalStorage.js"></script>
+  <script src="./js/SessionStorage.js"></script>
+  <script src="./js/HandleUI.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

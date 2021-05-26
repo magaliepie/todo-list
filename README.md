@@ -2,6 +2,8 @@
 
 Todo application to handle and gather all the data and plans for the day.
 
+It has a functionality to prevent adding an empty item to the list. What is more, added a notification in the form of a banner after performing an action. List filtering applied.
+
 ## Used technologies
 
 Project is created with:
@@ -13,5 +15,4 @@ Project is created with:
 
 ## How to use
 
-If you have completed the task just click the task itself and it will be marked with the line.
-If you want to delete it, just double click it and you are done.
+Add the task you need to accomplish and when done click the delete button.
