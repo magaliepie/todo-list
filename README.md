@@ -8,7 +8,8 @@ Project is created with:
 
 -   HTML5
 -   CSS3
--   Javascript
+-   Javascript OOP Classes
+-   LocalStorage / SessionStorage
 
 ## How to use
 
